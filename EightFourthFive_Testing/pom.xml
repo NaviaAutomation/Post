@@ -14,6 +14,8 @@
 	<url>http://www.example.com</url>
 
 	<properties>
+		<tools-systemPath46>C:\Program Files\Java\jdk-17\bin/lib/tools.jar</tools-systemPath46>
+		<tools-systemPath>${JAVA_HOME}/lib/tools.jar</tools-systemPath>
 		<ATUReporter-systemPath>
 			${basedir}\src\lib\ATUReporter_Selenium_testNG_5.5_BETA.jar</ATUReporter-systemPath>
 		<ATUReporter-systemPath>
@@ -24,6 +26,15 @@
 	</properties>
 
 	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.openrewrite/rewrite-java-17 -->
+		<dependency>
+			<groupId>org.openrewrite</groupId>
+			<artifactId>rewrite-java-17</artifactId>
+			<version>8.43.4</version>
+			<scope>runtime</scope>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.twdata.maven</groupId>
