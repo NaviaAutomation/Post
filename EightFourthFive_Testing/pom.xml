@@ -21,20 +21,13 @@
 		<ATUReporter-systemPath>
 			${basedir}\src\lib\ATUReporter_Selenium_testNG_5.5_BETA.jar</ATUReporter-systemPath>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
 
 	<dependencies>
 
-		<!-- https://mvnrepository.com/artifact/org.openrewrite/rewrite-java-17 -->
 
-
-		<dependency>
-			<groupId>org.twdata.maven</groupId>
-			<artifactId>mojo-executor-maven-plugin</artifactId>
-			<version>2.3.3</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.openrewrite</groupId>
