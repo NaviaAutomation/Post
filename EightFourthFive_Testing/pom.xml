@@ -28,7 +28,6 @@
 	<dependencies>
 
 
-
 		<dependency>
 			<groupId>org.openrewrite</groupId>
 			<artifactId>rewrite-java-17</artifactId>
@@ -70,6 +69,15 @@
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.10.1</version>
 		</dependency>
+
+		<!--
+		https://mvnrepository.com/artifact/io.github.testervippro/record-video -->
+		<dependency>
+			<groupId>io.github.testervippro</groupId>
+			<artifactId>record-video</artifactId>
+			<version>2.1</version>
+		</dependency>
+
 
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
