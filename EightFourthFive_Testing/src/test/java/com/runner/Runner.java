@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {
- "C:\\Users\\CommonPC\\eclipse-workspace\\EightFourthFive_Testing\\src\\test\\java\\com\\feature\\PostMarketTesting_Nine_Fifteen.feature"
+ "C:\\Users\\CommonPC\\git\\repository\\EightFourthFive_Testing\\src\\test\\java\\com\\feature\\PostMarketTesting_Nine_Fifteen.feature"
 		
 },
         glue = {"com.stepdefinition"},

@@ -6435,7 +6435,7 @@ public void user_navigate_to_backoffice_and_click_activity_and_verify() throws I
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File screenshotAs = ts.getScreenshotAs(OutputType.FILE);
 		File des = new File(
-				"C:\\Users\\Venkateshwaran\\git\\repository\\EightFourthFive_Testing\\screenshotbackoffice\\Backoffice.png");
+				"C:\\Users\\CommonPC\\git\\repository\\EightFourthFive_Testing\\screenshotbackoffice");
 		Files.copy(screenshotAs, des);
 
 		WebElement element = driver.findElement(By.xpath("//table[@id='ReportTable']"));
