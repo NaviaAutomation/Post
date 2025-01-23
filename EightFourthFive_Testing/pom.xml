@@ -14,15 +14,9 @@
 	<url>http://www.example.com</url>
 
 	<properties>
-		<tools-systemPath46>C:\Program Files\Java\jdk-17\bin/lib/tools.jar</tools-systemPath46>
-		<tools-systemPath>${JAVA_HOME}/lib/tools.jar</tools-systemPath>
-		<ATUReporter-systemPath>
-			${basedir}\src\lib\ATUReporter_Selenium_testNG_5.5_BETA.jar</ATUReporter-systemPath>
-		<ATUReporter-systemPath>
-			${basedir}\src\lib\ATUReporter_Selenium_testNG_5.5_BETA.jar</ATUReporter-systemPath>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 
 	<dependencies>
