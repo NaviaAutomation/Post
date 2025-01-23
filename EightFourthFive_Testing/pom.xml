@@ -111,22 +111,7 @@
 			<version>0.7.7.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
-		<!-- https://mvnrepository.com/artifact/cn.t/email-util -->
-
-		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>7.16.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.github.stephenc.monte</groupId>
-			<artifactId>monte-screen-recorder</artifactId>
-			<version>0.7.7.0</version>
-		</dependency>
+	
 
 
 	</dependencies>
